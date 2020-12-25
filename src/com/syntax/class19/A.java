@@ -14,3 +14,23 @@ public class A {
 		System.out.println("PrintF");
 	}
 }
+
+class B extends A {
+
+	public static void main (String []args) {
+		A callA=new B();
+		
+		
+		
+	}
+	
+	
+}
+
+class C extends B{
+	public static void main(String[] args) {
+		A prtintF=new C();
+		A.printF();
+	}
+}
+
